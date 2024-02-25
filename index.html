@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/Rotating Navigation/script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>My Project</title>
+  </head>
+  <body
+    id="Body"
+    class="flex flex-col items-center justify-center h-screen m-0 relative overflow-hidden transition-transform duration-500"
+  >
+  <img id="contentBackground" class="z-[0] w-screen transition-transform duration-500 " src="./white.jpg" alt="">
+      <div class="container">
+      </div>
+      <div class="circle relative bg-yellow-400 p-9 py-7 right-[610px] bottom-[42.4em] rounded-br-full cursor-pointer z-0 ">
+        <button id="close" class=" absolute text-xl bottom-5 right-6 text-gray-800 hidden">
+          <i
+            class="fas fa-times"
+          ></i>
+        </button>
+        <button id="open" class="absolute text-lg right-6 bottom-5 text-gray-800 ">
+          <i class="fas fa-bars "></i>
+        </button>
+      </div>
+      <nav class="absolute left-2 bottom-12 flex flex-col z-[1] text-white">
+        <ul class="flex flex-col gap-4 font-semibold text-sm cursor-pointer">
+          <li class="ml-1 hover:text-yellow-500 "><i class="fas fa-home"></i> Home</li>
+          <li class="ml-5 hover:text-yellow-500"><i class="fa-solid fa-user"></i> About</li>
+          <li class="ml-10 hover:text-yellow-500"><i class=" fa-solid fa-phone"></i> Contact</li>
+        </ul>
+      </nav>
+    </div>
+      <div id="content" class="content flex flex-col items-center absolute z-10 top-12 transition-transform duration-500">
+        <div
+        class="text relative text-gray-800 left-[400px] -top-5 mr-[760px]" 
+        >
+        <h1 class="font-bold font-sans">Amazing Headphone</h1>
+        <p class="text-sm">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quam quo opw, necessitatibus hic officiis repudiandae eveniet, pariatur vitae rerum.Temporis per dolores libero nesciunt quos aliquid!
+       Lorem ipsum dolor sit amet cons adipisicing elit. Provident quam quo fugit lor. Lorem ipsum dolor sit amet consect adipisicing elit. Officiis at voluptas saepe est ullam, labore libero et cupiditate arp kendall job necessitatibus ex nobis temporibus illo aspernatur nihil non enim quis recusanda
+          </p>
+        </div>   
+        <img
+          class="absolute w-[500px] h-[260px] top-[135px] right-96"
+          src="./hdphon.jpg"
+          alt="Headphone"
+        />
+        <p class="absolute text-sm left-[400px] top-[406px] mr-96"> Lorem ipsum dolor mer sit ss, amet consectetur por s ipsum  adipisicing elit bor. Dolore amet similique veniam repellat opa, sint cum mollitiaLorem ipsum dolor sit amo amet, consectetur adipisicing elit. Error asperiores porro expedita iure op officiis ipsum eiu a, molestias labore recusandae reiciendis deserunt sit bor nesciunt sapiente enim dignissimos are repellat corporis possimus dolorem? </p>
+      </div>
+    </div>
+    <div>
+    </body>
+    </html>
+    
